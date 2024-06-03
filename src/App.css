@@ -5,3 +5,74 @@
 @layer base {
   @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nanum+Myeongjo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 }
+
+.project {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-position-x: center;
+
+  animation: 0.3s cubic-bezier(0.6, 0, 0.4, 1) bgsmall;
+
+  border-radius: 5px;
+}
+
+@keyframes bgbig {
+  from {
+    background-size: 100%;
+  }
+  to {
+    background-size: 105%;
+  }
+}
+
+@keyframes bgsmall {
+  from {
+    background-size: 105%;
+  }
+  to {
+    background-size: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .project:hover {
+    animation: 0.2s cubic-bezier(0.6, 0, 0.4, 1) bgbig;
+    background-size: 105%;
+  }
+}
+
+.ybs {
+  background-image: url("./ybs.jpeg");
+  background-size: contain;
+  background-repeat: repeat;
+}
+
+.newspaper {
+  background-image: url("./newspaper.png");
+  background-size: contain;
+  background-repeat: repeat;
+}
+
+.mealtime {
+  background-image: url("./mealtime.png");
+  background-size: contain;
+  background-repeat: repeat;
+}
+
+.horizontalparent {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.horizontal {
+  display: inline-flex;
+  flex-direction: row;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.horizontal > div {
+  min-width: 45rem; /* Adjust this to your needs */
+  flex: 0 0 auto;
+}
