@@ -14,6 +14,7 @@
 
   animation: 0.3s cubic-bezier(0.6, 0, 0.4, 1) bgsmall;
 
+  background-size: 100%;
   border-radius: 5px;
 }
 
@@ -22,24 +23,22 @@
     background-size: 100%;
   }
   to {
-    background-size: 105%;
+    background-size: 103%;
   }
 }
 
 @keyframes bgsmall {
   from {
-    background-size: 105%;
+    background-size: 103%;
   }
   to {
     background-size: 100%;
   }
 }
 
-@media (min-width: 1024px) {
-  .project:hover {
-    animation: 0.2s cubic-bezier(0.6, 0, 0.4, 1) bgbig;
-    background-size: 105%;
-  }
+.project:hover {
+  animation: 0.3s cubic-bezier(0.6, 0, 0.4, 1) bgbig;
+  background-size: 103%;
 }
 
 .ybs {
@@ -68,8 +67,6 @@
 .horizontal {
   display: inline-flex;
   flex-direction: row;
-  overflow-x: hidden;
-  overflow-y: hidden;
 }
 
 .horizontal > div {
