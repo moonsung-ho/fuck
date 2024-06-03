@@ -37,7 +37,6 @@ function App() {
           start: "top top",
           end: "bottom bottom",
           scrub: 1,
-          markers: true,
         },
         duration: 5,
         backgroundColor: "rgb(28 25 23)",
