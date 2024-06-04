@@ -64,7 +64,7 @@ function App() {
             <a href="https://yonsin.sen.ms.kr" className="text-blue-400">
               연신중학교
             </a>
-            에 다니는학생 문성호입니다.
+            에 다니는 학생 문성호입니다.
             <br />
             주로{" "}
             <button
@@ -88,45 +88,7 @@ function App() {
       <hr className="between12 mx-6 md:mx-9 mt-20"></hr>
       <section id="second" className="px-7 md:px-10 pt-6">
         <p className="text-white text-4xl font-p font-bold">Projects</p>
-        {/* <div className="horizontalparent">
-          <a href="https://ybs.sungho.xyz">
-            <div className="horizontal mb-20 mt-6 h-52 md:h-[30rem] w-[10px] md:w-fit sticky top-0">
-              <div className="project h-full pl-6 relative">
-                <p className="text-black text-2xl md:text-2xl font-pretendard font-bold mt-6">
-                  연신중 방송부
-                </p>
-                <p className="text-black absolute bottom-5 md:text-lg font-pretendard font-medium mt-6 ">
-                  교내 방송부 활동을 하며 신청곡과 사연을 받는 웹사이트를 직접
-                  개발했습니다.
-                </p>
-              </div>
-            </div>
-          </a>
-          <a href="https://clovertimes.xyz">
-            <div className="horizontal flex mb-20 mt-6 h-52 md:h-[30rem] overflow-hidden overflow-x-hidden overflow-y-hidden w-64 md:w-fit sticky top-0 ml-6">
-              <div className="project newspaper w-[45rem] aspect-4/3 h-full pl-6 relative">
-                <p className="text-black text-2xl md:text-2xl font-pretendard font-bold mt-6">
-                  토끼풀 타임즈
-                </p>
-                <p className="text-black absolute bottom-5 md:text-lg font-pretendard font-medium mt-6">
-                  학교에서 신문부를 창설하여 발행인 역할을 맡고 있습니다.
-                </p>
-              </div>
-            </div>
-          </a>
-          <a href="https://geupsiktime.netlify.app">
-            <div className="horizontal flex mb-20 mt-6 h-52 md:h-[30rem] overflow-hidden overflow-x-hidden overflow-y-hidden w-64 md:w-fit sticky top-0 ml-6">
-              <div className="project mealtime w-[45rem] aspect-4/3 h-full pl-6 relative">
-                <p className="text-white text-2xl md:text-2xl font-pretendard font-bold mt-6">
-                  급식시간
-                </p>
-                <p className="text-white absolute bottom-5 md:text-lg font-pretendard font-medium mt-6">
-                  학교 급식과 시간표를 알려주는 앱을 개발했습니다.
-                </p>
-              </div>
-            </div>
-          </a>
-        </div> */}
+
         <div className="mt-6 mb-20 flex flex-row overflow-x-auto  whitespace-nowrap">
           <a
             href="https://ybs.sungho.xyz"
